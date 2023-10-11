@@ -12,7 +12,31 @@
     <main id="content">
         <section id="section-form">
             <form method="get" action="#null" id="form">
-
+                <h1>Become A Masterbuilder</h1>
+                <p>
+                    Sign up to become part of a community of Lego engineers!
+                </p>
+                <ol>
+                    <li id="container-email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" pattern="^.+@.+$" >
+                    </li>
+                    <li id="container-username">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" pattern="^.+@.+$" >
+                    </li>
+                    <li id="container-password">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" >
+                    </li>
+                    <li id="container-age-verification">
+                        <input type="checkbox" class="age-verification" id="age-verification" name="age-verification" value="16" >
+                        <label id="label-age-verification" for="age-verification">I am over 16 years old</label>
+                    </li>
+                    <li id="container-submit">
+                        <input type="submit" name="submit" id="submit" value="Register Free" >
+                    </li>
+                </ol>
             </form>
         </section>
     </main>
