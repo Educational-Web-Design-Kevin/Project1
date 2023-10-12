@@ -25,6 +25,7 @@ h1 {
     font-weight: bold;
     text-align: center;
 }
-img {
+img,
+#section-services {
     margin: 0.50em 0 0.50em 0; /*18/9=0.50*/
 }
