@@ -29,3 +29,12 @@ img,
 #section-services {
     margin: 0.50em 0 0.50em 0; /*18/9=0.50*/
 }
+#email,
+#username,
+#password {
+    background-color: rgb(255, 250, 250);
+    border-radius: 0.444em; /*8/18=0.4444*/
+    border-style: hidden;
+    padding: 0.222em; /*4/18=0.2222*/
+    max-width: 100%;
+}
