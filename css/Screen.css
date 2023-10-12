@@ -2,11 +2,16 @@
 @font-face {
     font-family: "Ubuntu";
     src: url(../assets/fonts/Ubuntu/Ubuntu-Regular.ttf) format(TrueType);
-    font-weight: 100 700;
+    font-weight: normal
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../assets/fonts/Ubuntu/Ubuntu-Bold.ttf) format(TrueType);
+    font-weight: bold;
 }
 @font-face {
     font-family: "Monsterrat";
-    src: url(../assets/fonts/Montserrat/static/Montserrat-Regular.ttf) format(TrueType);
+    src: url(../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format(TrueType);
 }
 /*******Layout Styles*******/
 /*Modular Scale: Major Second*/
