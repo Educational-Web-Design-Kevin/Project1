@@ -39,6 +39,15 @@ img,
 #section-services {
     margin: 0.50em 0 0.50em 0; /*18/9=0.50*/
 }
+.bricks {
+    display: flex;
+    justify-content: space-between;   
+}
+.bricks img {
+    width: 35%;
+    max-width: 8em;
+    margin: 0.50em auto;
+}
 #email,
 #username,
 #password,
