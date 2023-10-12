@@ -31,7 +31,8 @@ h1 {
 }
 p,
 h1,
-figcaption {
+figcaption,
+#services-list {
     text-align: center;
 }
 img,
