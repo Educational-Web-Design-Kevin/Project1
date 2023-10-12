@@ -1,3 +1,13 @@
+/*******Custom Fonts*******/
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../assets/fonts/Ubuntu/Ubuntu-Regular.ttf) format(TrueType);
+    font-weight: 100 700;
+}
+@font-face {
+    font-family: "Monsterrat";
+    src: url(../assets/fonts/Montserrat/static/Montserrat-Regular.ttf) format(TrueType);
+}
 /*******Layout Styles*******/
 html {
     background-color: rgb(192, 213, 231);
