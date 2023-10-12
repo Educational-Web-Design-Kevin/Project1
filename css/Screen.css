@@ -23,4 +23,5 @@ html {
 h1 {
     font-size: 1.266em; /*22.781/18=1.2656*/
     font-weight: bold;
+    text-align: center;
 }
