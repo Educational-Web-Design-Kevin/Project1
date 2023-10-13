@@ -80,3 +80,9 @@ figcaption,
 #services-list li {
     padding: 0.333em;
 }
+
+/*******Media Queries*******/
+/*Screens with width that is 432 pixels or greater*/
+@media screen and (min-width: 27em) { /*432/27=27*/
+    
+}
