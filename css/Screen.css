@@ -49,6 +49,10 @@ img,
     max-width: 8em;
     margin: 0.50em auto;
 }
+#container-submit {
+    margin: 1em auto 1em auto; /*18/18-1*/
+    max-width: 10em; /*180/18=10*/
+}
 #email,
 #username,
 #password,
