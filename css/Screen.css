@@ -30,6 +30,9 @@ h1 {
     line-height: 1.317em; /*30/22.781=1.3168*/
     font-weight: bold;
 }
+figure {
+    margin: 1.50em auto 0 auto;
+}
 h1, p {
     margin: 0.333em 0; /*6/18=0.3333*/
 }
