@@ -33,18 +33,12 @@ h1 {
 figure {
     margin: 1.50em auto 0 auto;
 }
-h1, p {
-    margin: 0.333em 0; /*6/18=0.3333*/
-}
 form {
     max-width: 20em; /*10/18=20*/
     margin: auto;
 }
-p,
-h1,
-figcaption,
-#services-list {
-    text-align: center;
+h1, p {
+    margin: 0.333em 0; /*6/18=0.3333*/
 }
 img,
 figcaption,
@@ -52,6 +46,12 @@ figcaption,
     margin: 0.50em auto 0.50em auto; /*18/9=0.50*/
     width: 90%;
     max-width: 16em; /*288/18=16*/
+}
+p,
+h1,
+figcaption,
+#services-list {
+    text-align: center;
 }
 .bricks {
     display: flex;
@@ -61,6 +61,9 @@ figcaption,
     width: 35%;
     max-width: 8em;
     margin: 0.50em auto;
+}
+#services-list li {
+    padding: 0.333em;
 }
 #container-submit {
     margin: 1em auto 1em auto; /*18/18=1*/
@@ -79,9 +82,6 @@ figcaption,
     padding: 0.222em; /*4/18=0.2222*/
     width: 100%;
     max-width: 100%;
-}
-#services-list li {
-    padding: 0.333em;
 }
 
 /*******Media Queries*******/
