@@ -27,6 +27,7 @@ html {
 }
 h1 {
     font-size: 1.266em; /*22.781/18=1.2656*/
+    line-height: 1.317em; /*30/22.781=1.3168*/
     font-weight: bold;
 }
 p,
