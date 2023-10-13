@@ -40,8 +40,11 @@ figcaption,
     text-align: center;
 }
 img,
+figcaption,
 #section-services {
-    margin: 0.50em 0 0.50em 0; /*18/9=0.50*/
+    margin: 0.50em auto 0.50em auto; /*18/9=0.50*/
+    width: 90%;
+    max-width: 16em; /*288/18=16*/
 }
 .bricks {
     display: flex;
