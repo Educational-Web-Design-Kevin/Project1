@@ -84,5 +84,12 @@ figcaption,
 /*******Media Queries*******/
 /*Screens with width that is 432 pixels or greater*/
 @media screen and (min-width: 27em) { /*432/27=27*/
-    
+    html {
+        font-size: 1.424em; /*22.781/16=1.4238*/
+        line-height: 1.141em; /*26/22.781=1.1413*/
+    }
+    h1{
+        font-size: 1.266em; /*28.833/22.781=1.2656*/
+        line-height: 1.110em; /*32/28.833=1.098*/
+    }
 }
