@@ -96,7 +96,9 @@ figcaption,
         background-color: rgb(192, 213, 231);
         border-radius: 0.50em; /*11.3905/22.781=0.50*/
         margin: auto;
-        max-width: 17em; /*387.277/22.781=17*/
+        /*max-width: 17em; /*387.277/22.781=17*/
+        width: 90%;
+        max-width: 32em; /*512/16=32*/
         padding: 0.702em; /*16/22.781=0.7023*/
       }
     h1{
@@ -106,8 +108,8 @@ figcaption,
 }
 /*Screens with width that is 672 pixels or larger (Tablet and Computer Desktops)*/
 @media screen and (min-width: 42em) { /*672/16=42*/
-    body {
+    /*body {
         width: 90%;
         max-width: 32em; /*512/16=32*/
-    }
+    /*}*/
 }
