@@ -106,5 +106,8 @@ figcaption,
 }
 /*Screens with width that is 672 pixels or larger (Tablet and Computer Desktops)*/
 @media screen and (min-width: 42em) { /*672/16=42*/
-    
+    body {
+        width: 90%;
+        max-width: 32em; /*512/16=32*/
+    }
 }
