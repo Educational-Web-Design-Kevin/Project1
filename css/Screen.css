@@ -60,7 +60,8 @@ figcaption,
 .bricks img {
     width: 35%;
     max-width: 8em;
-    margin: 0.50em auto;
+    /*margin: 0.50em auto;*/
+    margin: 0.50em 4%;
 }
 #services-list li {
     padding: 0.333em;
