@@ -33,10 +33,6 @@ h1 {
 figure {
     margin: 1.50em auto 0 auto;
 }
-form {
-    max-width: 20em; /*10/18=20*/
-    margin: auto;
-}
 h1, p {
     margin: 0.333em 0; /*6/18=0.3333*/
 }
@@ -55,6 +51,10 @@ figcaption,
 .bricks {
     display: flex;
     justify-content: space-between;   
+}
+.form-inputs {
+    max-width: 20em; /*10/18=20*/
+    margin: auto;
 }
 .bricks img {
     width: 35%;
