@@ -41,8 +41,7 @@ h1, p {
     margin: 0.333em 0; /*6/18=0.3333*/
 }
 img,
-figcaption,
-#section-services {
+figcaption {
     margin: 0.50em auto 0.50em auto; /*18/9=0.50*/
     width: 90%;
     max-width: 16em; /*288/18=16*/
