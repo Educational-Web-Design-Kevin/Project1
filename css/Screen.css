@@ -17,16 +17,13 @@
 /*Modular Scale: Major Second*/
 /*https://www.modularscale.com/?18&px&1.125*/
 html {
-    background-color: rgb(234, 231, 231);
+    background-color: rgb(192, 213, 231);
     font-family: "Ubuntu", "Monsterrat", sans-serif;
     font-size: 1.125em; /*18/16=1.125*/
     line-height: 1.25em;
     padding: 1em;
     text-rendering: optimizeLegibility;
     overflow-x: hidden
-}
-body {
-    background-color: rgb(192, 213, 231);
 }
 h1 {
     font-size: 1.266em; /*22.781/18=1.2656*/
@@ -91,10 +88,12 @@ figcaption,
 /*Screens with width that is 432 pixels or greater*/
 @media screen and (min-width: 27em) { /*432/27=27*/
     html {
+        background-color: rgb(234, 231, 231);
         font-size: 1.424em; /*22.781/16=1.4238*/
         line-height: 1.141em; /*26/22.781=1.1413*/
     }
     body {
+        background-color: rgb(192, 213, 231);
         border-radius: 0.50em; /*11.3905/22.781=0.50*/
         margin: auto;
         width: 90%;
