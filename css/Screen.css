@@ -107,5 +107,12 @@ figcaption,
 }
 /*Screens with width that is 672 pixels or larger (Tablet and Computer Desktops)*/
 @media screen and (min-width: 42em) { /*672/16=42*/
-
+    #div-creation-images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .figure-creation-images {
+        width: 50%;
+    }
 }
