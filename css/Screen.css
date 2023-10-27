@@ -1,12 +1,12 @@
 /*******Custom Fonts*******/
 @font-face {
     font-family: "Ubuntu";
-    src: url(../assets/fonts/Ubuntu/Ubuntu-Regular.ttf) format(TrueType);
+    src: url(../assets/fonts/ubuntu/ubuntu-regular.ttf) format(TrueType);
     font-weight: normal
 }
 @font-face {
     font-family: "Ubuntu";
-    src: url(../assets/fonts/Ubuntu/Ubuntu-Bold.ttf) format(TrueType);
+    src: url(../assets/fonts/ubuntu/ubuntu-bold.ttf) format(TrueType);
     font-weight: bold;
 }
 @font-face {
