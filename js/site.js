@@ -7,15 +7,13 @@ function validateForm() {
   let eml = document.forms["form"]["email"].value;
   let usr = document.forms["form"]["username"].value;
   let pwd = document.forms["form"]["password"].value;
-  if (usr == "") {
+  if (eml == "") {
     alert("Email must be filled out");
     return false;
-  }
-  if (usr == "") {
+  } else if (usr == "") {
     alert("Username must be filled out");
     return false;
-  }
-  if (usr == "") {
+  } else if (pwd == "") {
     alert("Password must be filled out");
     return false;
   }
