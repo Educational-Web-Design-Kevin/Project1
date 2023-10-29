@@ -6,9 +6,8 @@ jQuery(function($) {
 function validateForm() {
     let x = document.forms["form"]["username"].value;
     if (x == "") {
-        var paragraph = document.getElementById("username");
-        var errorMesg = document.createTextNode("Username must be filled out!");
-        paragraph.appendChild(errorMesg);
+        var userField = document.getElementById("username");
+        userField.textContent += "Username is empty!";
       return false;
     }
   }
