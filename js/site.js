@@ -4,10 +4,19 @@ jQuery(function($) {
 });
 
 function validateForm() {
-    let x = document.forms["form"]["username"].value;
-    if (x == "") {
-        var userField = document.getElementById("username");
-        userField.value += "Username is empty!";
-      return false;
-    }
+  let eml = document.forms["form"]["email"].value;
+  let usr = document.forms["form"]["username"].value;
+  let pwd = document.forms["form"]["password"].value;
+  if (usr == "") {
+    alert("Email must be filled out");
+    return false;
   }
+  if (usr == "") {
+    alert("Username must be filled out");
+    return false;
+  }
+  if (usr == "") {
+    alert("Password must be filled out");
+    return false;
+  }
+}
