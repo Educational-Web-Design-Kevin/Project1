@@ -7,7 +7,7 @@ function validateForm() {
     let x = document.forms["form"]["username"].value;
     if (x == "") {
         var userField = document.getElementById("username");
-        userField.textContent += "Username is empty!";
+        userField.value += "Username is empty!";
       return false;
     }
   }
