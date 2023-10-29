@@ -14,6 +14,7 @@
     src: url(../assets/fonts/montserrat/montserrat-variablefont_wght.ttf) format(TrueType);
 }
 /*******Layout Styles*******/
+/*Color Palette: https://paletton.com/#uid=30c0H0kt9tvhHDsmPvkuomqA9go*/
 /*Modular Scale: Major Second*/
 /*https://www.modularscale.com/?18&px&1.125*/
 html {
@@ -64,11 +65,11 @@ figcaption,
 }
 .bricks img {
     width: 35%;
-    max-width: 8em;
-    margin: 0.50em 4%;
+    max-width: 8em; /*144/18=8*/
+    margin: 0.50em 4%; /*9/18=0.50*/
 }
 #services-list li {
-    padding: 0.333em;
+    padding: 0.333em; /*6/18=0.3333*/
 }
 #container-email {
     margin-top: 0.778em; /*14/18=0.7777*/
@@ -90,12 +91,11 @@ figcaption,
     border-style: hidden;
     box-sizing: border-box;
     margin-top: 0.222em; /*4/18=0.2222*/
-    margin-bottom: 0.50em;
+    margin-bottom: 0.50em; /*9/18=0.50*/
     padding: 0.444em 0.444em; /*8/18=0.4444*/
     width: 100%;
     max-width: 100%;
 }
-
 /*******Media Queries*******/
 /*Screens with width that is 432 pixels or greater*/
 @media screen and (min-width: 27em) { /*432/27=27*/
@@ -131,7 +131,6 @@ figcaption,
         width: 50%;
     }
 }
-
 /*******State Styles*******/
 #submit:hover {
     color: rgb(255, 255, 255);
