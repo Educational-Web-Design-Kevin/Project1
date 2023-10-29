@@ -3,7 +3,10 @@ jQuery(function($) {
     $('html').addClass('hasjs');
 });
 
-function isEmail(email) {
-    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-    return regex.test(email);
+function validateForm() {
+    let x = document.forms["form"]["username"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
   }
