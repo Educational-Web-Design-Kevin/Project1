@@ -135,7 +135,6 @@ figcaption,
     transition: ease-in 0.30s;
 }
 #submit:active {
-     color: rgb(255, 255, 255);
     background-color: rgb(84, 122, 0);
     transition: ease-in 0s;
 }
