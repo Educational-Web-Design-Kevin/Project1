@@ -19,7 +19,7 @@
 /*https://www.modularscale.com/?18&px&1.125*/
 html {
     background-color: rgb(201, 243, 109);
-    font-family: "Ubuntu", "Monsterrat", sans-serif;
+    font-family: "Ubuntu", "Monsterrat", Arial, sans-serif;
     font-size: 1.125em; /*18/16=1.125*/
     line-height: 1.25em;
     padding: 1em;
