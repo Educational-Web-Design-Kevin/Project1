@@ -74,6 +74,10 @@ figcaption,
     margin: 1em auto 1em auto; /*18/18=1*/
     max-width: 10em; /*180/18=10*/
 }
+#error {
+    color: rgb(131, 32, 0);
+    font-size: 0.79em; /*14.222/18=0.7901*/
+}
 #email,
 #username,
 #password,
@@ -108,6 +112,9 @@ figcaption,
     h1{
         font-size: 1.266em; /*28.833/22.781=1.2656*/
         line-height: 1.110em; /*32/28.833=1.098*/
+    }
+    #error {
+        font-size: 0.79em; /*18/22.781=0.7901*/
     }
 }
 /*Screens with width that is 672 pixels or larger (Tablet and Computer Desktops)*/
